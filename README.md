@@ -15,7 +15,7 @@ It also good idea to save the dependency in `requirements.txt`
 
 - Made use of `sqlite` database and self-taught `flask_SQLAlchemy`, a powerful ORM (Object-relational
   mapping), to increase development and for any future upgrades to any relational database management system.
-- Understand the concept of splitting code into packages/monorepo structure
+- Understand the concept of splitting code into packages structure for scalability 
 
 DB Relationship
 User 1 - M Post
