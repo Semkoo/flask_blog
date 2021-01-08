@@ -17,8 +17,10 @@ It also good idea to save the dependency in `requirements.txt`
 - Made use of `sqlite` database and self-taught `flask_SQLAlchemy`, a powerful ORM (Object-relational
   mapping), to increase development and for any future upgrades to any relational database management system.
 - Understand the concept of splitting code into packages structure for scalability
-- User Authentication - Hash with bycrpt module and protecting routes
+- User Authentication - Hash with bycrpt module as well as protecting routes
 - HTML5 Validation - Bootstrap Error Style
+- Able to perform CRUD Action on posts as well as authorizing which user can perform.  
+- 
 
 DB Relationship
 User 1 - M Post
