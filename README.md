@@ -4,12 +4,12 @@ To use the application it recommend to use a virtualenv when developing projects
 
 `$ source flask_blog_env/bin/activate`
 
-Than install all the dependency and run the app
+Install all the dependency and run the app
 
 `$ pip pip install -r requirements.txt`
 `$ python run.py`
 
-It also good idea to save the dependency in `requirements.txt`
+It also good idea to save the dependency in `requirements.txt` if there are updates
 
 `$ pip freeze --local > requirements.txt`
 ### About the project
@@ -20,7 +20,4 @@ It also good idea to save the dependency in `requirements.txt`
 - User Authentication - Hash with bycrpt module as well as protecting routes
 - HTML5 Validation - Bootstrap Error Style
 - Able to perform CRUD Action on posts as well as authorizing which user can perform.  
-- 
-
-DB Relationship
-User 1 - M Post
+- Understanding Pagination with optional query params, as well one to many relationships of posts...
