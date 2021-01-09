@@ -16,10 +16,10 @@ It also good idea to save the dependency in `requirements.txt` if there are upda
 
 - Made use of `sqlite` database and self-taught `flask_SQLAlchemy`, a powerful ORM (Object-relational
   mapping), to increase development and for any future upgrades to any relational database management system.
-- Understand the concept of splitting code into packages structure for scalability
+- Understand the concept of splitting code into packages structure for scalability as well as utilizing Blueprints.
 - User Authentication - Hash with bycrpt module as well as protecting routes
 - HTML5 Validation - Bootstrap Error Style
 - Able to perform CRUD Action on posts as well as authorizing which user can perform.  
-- Understanding Pagination with optional query params, as well one to many relationships of posts...
-- Added Email Validation and Password Reset with JWT Serializer to reset account, environment variable email stored
-- 
+- Understanding Pagination with optional query params, as well as relationship database
+- Added Email Validation and Password Reset with JWT Serializer to reset account 
+- Storing credentials into environment variable 

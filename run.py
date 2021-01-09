@@ -1,5 +1,7 @@
-from app import app
+import app
+
+root = app.create_app()
 
 """THIS IS FOR PYTHON TO RUN"""
 if __name__ == "__main__":
-    app.run(debug=True)
+    root.run(debug=True)
